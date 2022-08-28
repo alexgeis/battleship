@@ -1,0 +1,15 @@
+// INSTALL CLI
+npm install --save-dev css-loader dotenv-webpack eslint eslint-config-airbnb-base eslint-plugin-import gh-pages html-loader html-webpack-plugin mini-css-extract-plugin node-sass path sass-loader style-loader webpack webpack-cli webpack-dev-server
+
+// SUGGESTED ESLINT RULES OBJECT
+"rules": {
+            "no-console": "off",
+            "no-tabs": "off",
+            "indent": "off",
+            "no-restricted-syntax": "off",
+            "guard-for-in": "off",
+            "quotes":"off",
+            "operator-linebreak":"off",
+            "max-len":"off",
+            "consistent-return":"off"
+    }
