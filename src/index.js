@@ -20,3 +20,25 @@ function createShip(length) {
 }
 const test = createShip(2);
 console.log(test);
+
+function createGameboard() {
+	// let missedCoords = [];
+
+	const receiveAttack = () => {
+		// takes a pair of coordinates
+		// determines whether the attack hit a ship
+		// send hit() function to correct ship
+		// OR record coordinates of missed shot
+	};
+
+	const checkAllShipsSunk = () => {
+		// check isSunk() for all ships
+	};
+
+	return {
+		receiveAttack,
+		checkAllShipsSunk,
+	};
+}
+const test2 = createGameboard();
+console.log(test2);
