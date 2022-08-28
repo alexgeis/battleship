@@ -19,6 +19,7 @@
             "quotes":"off",
             "operator-linebreak":"off",
             "max-len":"off",
-            "consistent-return":"off"
+            "consistent-return":"off",
+            "no-undef":"off"
     }
 }
