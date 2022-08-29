@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "DESCRIPTION",
   "main": "webpack.config.js",
+  "type": "module",
+  "jest": {
+    "verbose": true,
+    "transform":  {
+      "^.+\\.js?$": "babel-jest"
+    }
+  },
   "scripts": {
     "test": "jest",
     "watch": "webpack --watch",
@@ -22,6 +29,10 @@
   },
   "homepage": "https://github.com/alexgeis/template.22#readme",
   "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "babel-jest": "^29.0.1",
+    "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "dotenv-webpack": "^8.0.1",
     "eslint": "^8.22.0",

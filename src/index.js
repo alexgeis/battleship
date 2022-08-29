@@ -42,3 +42,5 @@ function createGameboard() {
 }
 const test2 = createGameboard();
 console.log(test2);
+
+export { createShip, createGameboard };
